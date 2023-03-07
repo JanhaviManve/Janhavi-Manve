@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 15px;
+    color: white;
+    background-color: rgb(42,42,68);
+}
+.fnav .left{
+    display: flex;
+    margin-left: 11px;
+}
+.left img{
+    display: flex;
+    width: 15%; 
+    padding: 0px;
+    margin-left: -400px;
+}
+.left input{
+    display: inline-block;
+    justify-content: center;
+    justify-content: space-around;
+    margin-inline: 20px;
+    width: 550px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 3px;
+}
+.fnav .right{
+    display: flex;
+    margin-top: 11px;
+}
+.right p{
+    margin-inline: 22px;
+}
+.snav{
+    display: flex;
+    justify-content: left;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(26,26,48);
+    color: white;
+}
+.snav .sleft{
+    display: flex;
+    margin-left: -530px;
+}
+.snav .sleft .i{
+    margin-inline: 22px;
+    font-size: 22px;
+}
+.snav .sright{
+    display: flex;
+    margin-right: -500px;
+}
+.snav p:hover{
+    color: bisque;
+    cursor: pointer;
+}
+.sleft p{
+    margin-inline-start: 18px ;
+}
+.sright p{
+    margin-inline-start: 22px ;
+}
+.main img{
+    width: 100%;
+    height: 400px;
+}
+.container h2{
+    text-align: center;
+    padding: 22px;
+}
+.container h4{
+    text-align: rigth;
+    padding: 22px;
+}
+.container .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.card img{
+    width: 25%;
+    margin-block: 15px;
+    border-radius: 30px;
+    padding: 16px;
+    margin-left: 4.5%;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: left;
+}
+.footer{
+    display: flex;
+    margin-top: 150px;
+    width: 70%;
+    padding: 100px 15%;
+    background: rgb(42,42,68);
+    color: white;
+}
+.footer div{
+    text-align: center;
+}
+.col2{
+    flex-grow: 2;
+}
+.col1 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.socialmedia{
+    margin-top: 30px;
+}
+.socialmedia i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+.scroll-up{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    /* background: orange;  */
+    bottom: 10px;
+    right: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color:orange;
+    font-size: 22px;
+}
